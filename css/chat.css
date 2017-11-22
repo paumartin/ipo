@@ -1,0 +1,59 @@
+.breadcrumb-patata {
+    position: relative;
+}
+.back-arrow {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    font-size: 40px;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 99999;
+}
+
+.single-categorie {
+    display: grid;
+    grid-auto-flow: row;
+    margin-bottom: 5rem;
+}
+
+.item {
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    max-width: 80%;
+    align-self: center;
+    justify-self: left;
+    position: relative;
+}
+
+.item.right { 
+    background-color: #2196f3;
+    justify-self: right;
+}
+
+.write {
+    border-top: 1px solid #ccc;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.write > * {
+    border-radius: 4px;
+}
+.write > input {
+    border: 1px solid #eee;
+}
+
+.time {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}

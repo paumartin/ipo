@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>BookSwap | Intercambio de libros</title>
+	<!-- Favicon Icon -->
+	<link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon.png">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google Font -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:regular,700,600&amp;latin" type="text/css" />
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
+	<!-- Font Awesome -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar top-navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header col-sm-2">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img alt="logo" src="images/logo.png" ></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="menu-user">
+                        <a href="profile.html"><div class="user-icon"><img src="images/user-placeholder.png"></div></a>
+                        <a>Antonio</a>
+                        <a>antonio@gmail.com</a>
+                    </li>
+                    <li><hr></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index_search.html">Buscar libro</a></li>
+                    <li><a href="create_post.html">Publicar libro</a></li>
+                    <li><a href="chats.html">Chat</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<!-- End Navbar -->
+	<!-- Breadcumb -->
+	<section class="breadcumb_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="breadcumb_section">
+						<div class="page_title">
+							<h3>Añadir un libro</h3>
+						</div>
+						<div class="page_pagination">
+							<ul>
+								<li><a href="index.html">Inicio</a></li>
+								<li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+								<li>Añadir un libro</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Breadcumb -->
+	<!-- Create Post -->
+	<section class="create-post">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="login-panel widget top-space">
+						<div class="login-body">
+							<form class="row">
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Título <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<input type="text" placeholder="Título" required="required" value="" class="form-control border-form">
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Autor <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<input type="text" placeholder="Autor" required="required" value="" class="form-control border-form">
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Editorial <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<input type="text" placeholder="Editorial" required="required" value="" class="form-control border-form">
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Género <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<select class="form-control border-form">
+											<option selected disabled>Género</option>
+											<option>Hand Phone</option>
+											<option>Motorcycle</option>
+											<option>Properti</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Idioma <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<select class="form-control border-form">
+											<option selected disabled>Idioma</option>
+											<option>Hand Phone</option>
+											<option>Motorcycle</option>
+											<option>Properti</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Idioma <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<select class="form-control border-form">
+											<option selected disabled>Estado</option>
+											<option>Hand Phone</option>
+											<option>Motorcycle</option>
+											<option>Properti</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label  class="col-sm-3 control-label">Añadir foto</label> -->
+									<div class="col-sm-9">
+										<input type="file" class="filestyle" placeholder="Selecciona un foto">
+										<span class="help-block"></span>
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label">Your Name <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<input type="text" placeholder="Ubicación" required="required" value="" class="form-control border-form">
+									</div>
+								</div>
+								<div class="form-group">
+									<!-- <label class="col-sm-3 control-label"> <span class="required">*</span></label> -->
+									<div class="col-sm-9">
+										<textarea placeholder="Introduce una descripción del libro." class="form-control border-form"></textarea>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-xs-6">
+										<div class="row">
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Intercambio
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Donativo
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Venta
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-6">
+										<div class="row">
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Mensajería
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Me puedo acercar
+													</label>
+												</div>
+											</div>
+											<div class="col-xs-12">
+												<div class="checkbox checkbox-primary pull-left">
+													<input id="checkbox2" type="checkbox" >
+													<label for="checkbox2">
+														Recogida
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-12 pull-right">
+										<button type="submit" class="btn btn-success"><i class="fa fa-book"></i> Añadir libro</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Create Post -->
+<!-- Footer -->
+<!-- End Footer -->
+<!-- Post Ad -->	
+<!-- <a href="create_post.html" data-toggle="tooltip" data-placement="left" title="Post Your Ad" class="btn btn-primary btn-lg post-free-add-btn"><i class="fa fa-pencil"></i></a> -->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Custom js -->
+<!-- <script src="js/custom.js"></script> -->
+<!-- Bootstrap JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Owl Carousel -->
+<script src="plugins/owl-carousel/owl.carousel.js"></script>
+<!-- Filestyle -->
+<script src="plugins/bootstrap-filestyle/bootstrap-filestyle.js"></script>
+</body>
+</html>
+

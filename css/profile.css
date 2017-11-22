@@ -1,0 +1,30 @@
+.info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+}
+.info .left {
+    grid-column: 1 / 2;
+}
+.info .left .img {
+    background-color: transparent;
+}
+.info .right {
+    grid-column: 2 / 3;   
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 5px;
+}
+.tab {
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+}
+.tab  div {
+    text-align: center;
+}
+.tab div:first-child {
+    background-color: #ccc;
+    border-right: 2px solid #ccc;
+}
