@@ -560,13 +560,12 @@ max-width: 990px;
 }
 /* Breadcumb */
 .breadcumb_area {
-background-image: url("../images/breadcumb.jpg");
+background-image: url("../images/Fondo.png");
 position: relative;
 width: 100%;
 z-index: 0;
 }
 .breadcumb_area::after {
-background-color: rgba(26, 43, 81, 0.85);
 content: "";
 height: 100%;
 left: 0;
