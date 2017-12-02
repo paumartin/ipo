@@ -21,37 +21,38 @@
 	<link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
 	<!-- Font Awesome -->
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/profile.css" rel="stylesheet">
 </head>
 <body>
 	<!-- Navbar -->
 	<nav class="navbar top-navbar" role="navigation">
-        <div class="container">
-            <div class="navbar-header col-sm-2">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img alt="logo" src="images/logo.png" ></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="menu-user">
-                        <a href="profile_user.html"><div class="user-icon"><img src="images/user-placeholder.png"></div></a>
-                        <a>Antonio</a>
-                        <a>antonio@gmail.com</a>
-                    </li>
-                    <li><hr></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index_search.html">Buscar libro</a></li>
-                    <li><a href="create_post.html">Publicar libro</a></li>
+		<div class="container">
+			<div class="navbar-header col-sm-2">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img alt="logo" src="images/logo.png" ></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="menu-user">
+						<a href="profile_user.html"><div class="user-icon"><img src="images/user-placeholder.png"></div></a>
+						<a>Antonio</a>
+						<a>antonio@gmail.com</a>
+					</li>
+					<li><hr></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index_search.html">Buscar libro</a></li>
+					<li><a href="create_post.html">Publicar libro</a></li>
 					<li><a href="chats.html">Chat</a></li>
 					<li><a href="index_sinsesion.html">Cerrar sesión</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<!-- End Navbar -->
 	<!-- Breadcumb -->
 	<section class="breadcumb_area">
@@ -84,6 +85,16 @@
 						<div class="login-body">
 							<form class="row">
 								<div class="form-group">
+									<div class="isbn">
+										<div class="col-md-8" style="display: inline-block; width: 60%; padding-right: 0;">
+											<input type="text" placeholder="ISBN" class="form-control border-form">
+										</div>
+										<div class="col-md-4" style="display: inline-block; float: right;">
+											<button class="btn btn-primary">Escanear</button>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
 									<!-- <label class="col-sm-3 control-label">Título <span class="required">*</span></label> -->
 									<div class="col-sm-9">
 										<input type="text" placeholder="Título" required="required" value="" class="form-control border-form">
@@ -108,18 +119,18 @@
 										<select class="form-control border-form">
 											<option selected disabled>Género</option>
 											<option>Misterio</option>
-                                    		<option>Novela Negra</option>
-                                    		<option>Ciencia Ficción</option>
-                                    		<option>Romántica</option>
-                                    		<option>Comedia</option>
-                                    		<option>Novela Dramática</option>
-                                    		<option>Novela bélica</option>
-                                    		<option>Poesía</option>
-                                    		<option>Ciencia</option>
-                                   			<option>Filosofía</option>
-                                    		<option>Gastronomía</option>
-                                    		<option>Novela contemporánea</option>
-                                    		<option>Otro</option>
+											<option>Novela Negra</option>
+											<option>Ciencia Ficción</option>
+											<option>Romántica</option>
+											<option>Comedia</option>
+											<option>Novela Dramática</option>
+											<option>Novela bélica</option>
+											<option>Poesía</option>
+											<option>Ciencia</option>
+											<option>Filosofía</option>
+											<option>Gastronomía</option>
+											<option>Novela contemporánea</option>
+											<option>Otro</option>
 										</select>
 									</div>
 								</div>
@@ -129,12 +140,12 @@
 										<select class="form-control border-form">
 											<option selected disabled>Idioma</option>
 											<option>Catalán</option>
-                                    		<option>Castellano</option>
-                                    		<option>Inglés</option>
-                                    		<option>Alemán</option>
-                                    		<option>Italiano</option>
-                                    		<option>Francés</option>
-                                    		<option>Otro</option>
+											<option>Castellano</option>
+											<option>Inglés</option>
+											<option>Alemán</option>
+											<option>Italiano</option>
+											<option>Francés</option>
+											<option>Otro</option>
 										</select>
 									</div>
 								</div>
